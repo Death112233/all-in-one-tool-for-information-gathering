@@ -2,10 +2,10 @@ import os
 import platform
 import sys
 import subprocess
-    
-# Function to perform Nmap scan with optionsdef print_hacker_ascii():
-  
-hacker_image = """
+
+# Function to print hacker ASCII art
+def print_hacker_ascii():
+    hacker_image = """
     
     ███████╗██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
     ██╔════╝██║  ██║██╔══██╗██╔════╝██║  ██║██╔════╝██╔══██╗
@@ -15,7 +15,6 @@ hacker_image = """
     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     
     """
-    
     print(hacker_image)
 
 # Call the function to print the image
